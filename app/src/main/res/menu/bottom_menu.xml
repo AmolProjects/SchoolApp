@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFeed_Fragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/Home"
+        android:menuCategory="secondary"/>
+
+    <item android:title="@string/NewsFeed"
+        android:icon="@drawable/ic_baseline_people_alt_24"
+        android:id="@+id/newsFeed_Fragment"
+        android:menuCategory="secondary"
+        />
+    <item android:title="@string/Faculity"
+        android:icon="@drawable/ic_baseline_filter_24"
+        android:id="@+id/facuilty_Fragment"
+        android:menuCategory="secondary"
+
+        />
+    <item android:title="@string/Gallery"
+        android:icon="@drawable/ic_baseline_filter_24"
+        android:id="@+id/gallery_Fragment"
+        android:menuCategory="secondary"
+
+        />
+</menu>
