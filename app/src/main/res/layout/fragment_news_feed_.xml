@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.newsfeed.NewsFeed_Fragment"
-    android:background="#5F39CF">
+    android:background="@color/text_shadow_white">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

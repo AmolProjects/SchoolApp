@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    app:cardElevation="1dp"
+    app:cardCornerRadius="10dp">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/image_slider"
+        android:background="@color/colorPrimary"
+        android:src="@color/cardview_dark_background" />
+
+</androidx.cardview.widget.CardView>

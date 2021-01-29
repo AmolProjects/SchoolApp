@@ -5,8 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/android_gridview_example"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/text_shadow_white"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <include layout="@layout/slide1"
@@ -25,12 +24,13 @@
         card_view:cardElevation="2dp"
         card_view:cardCornerRadius="10dp">
 
-        <GridView
+          <GridView
             android:id="@+id/grid_view_image_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_gravity="center"
+            android:layout_below="@+id/imageSlider"
             android:numColumns="2"/>
 
     </androidx.cardview.widget.CardView>

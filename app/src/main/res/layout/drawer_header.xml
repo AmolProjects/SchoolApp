@@ -13,5 +13,5 @@
         android:layout_weight="1"
         tools:srcCompat="@tools:sample/avatars"
         android:scaleType="fitXY"
-        android:src="@drawable/pathsala"/>
+        android:src="@color/colorAccent"/>
 </LinearLayout>

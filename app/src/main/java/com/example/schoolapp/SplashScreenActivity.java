@@ -95,7 +95,7 @@ public class SplashScreenActivity extends AppCompatActivity {
              listener=myFirebaseAuth->{
                  FirebaseUser user=myFirebaseAuth.getCurrentUser();
 //
-                 if (user!=null)
+             if (user!=null)
                     {
 //                       // Update token
 //                        FirebaseInstanceId.getInstance()
@@ -117,7 +117,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
                     }
                  else
-                     showLoginLayout();
+                 startActivity(new Intent(SplashScreenActivity.this,MainActivity.class));
              };
 
     }
