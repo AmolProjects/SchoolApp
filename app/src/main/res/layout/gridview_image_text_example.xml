@@ -21,7 +21,7 @@
         android:layout_marginRight="10dp"
         android:id="@+id/card"
         android:layout_below="@id/slide1"
-        card_view:cardElevation="2dp"
+        card_view:cardElevation="0dp"
         card_view:cardCornerRadius="10dp">
 
           <GridView
